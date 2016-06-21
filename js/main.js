@@ -7,7 +7,10 @@ $(document).ready(function() {
             var html = "<p class = 'quote-p'>";
             html += json["quoteText"];
             html += "</p>"
-            html += "<footer>Someone famous in <cite title='Source Title'>Source Title</cite></footer>"
+            authorText = json["quoteAuthor"];
+            html += "<footer><cite title='Autho'>";
+            html += authorText;
+            html += "</cite></footer>"
             $("#quote-text").html(html);
         });
     });
