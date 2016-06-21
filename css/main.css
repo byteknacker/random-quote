@@ -1,0 +1,15 @@
+.main-section {
+    background-color: #B25860;
+    margin-top: 100px;
+    padding: 40px;
+}
+.main-well {
+    margin-bottom: 40px;
+}
+body {
+    background-color: #3F697E;
+}
+.author-p {
+    color: white;
+    padding-top: 40px;
+}
