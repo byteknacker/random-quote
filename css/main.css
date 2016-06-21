@@ -13,3 +13,7 @@ body {
     color: white;
     padding-top: 40px;
 }
+
+#github_logo {
+  margin-left: 10px;
+}
