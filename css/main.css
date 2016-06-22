@@ -5,15 +5,30 @@
 }
 .main-well {
     margin-bottom: 40px;
+    margin-top: 20px;
+    padding-bottom: 40px;
 }
 body {
     background-color: #3F697E;
 }
 .author-p {
     color: white;
-    padding-top: 40px;
+    padding-top: 10px;
 }
 
 #github_logo {
   margin-left: 10px;
+}
+
+.btn-primary {
+  background-image: linear-gradient(to bottom,#00A9FF 0,#3F6A7F 100%);
+  border-color: #b25860;
+}
+
+.btn-primary:focus, .btn-primary:hover {
+  background-position: 0 45px;
+}
+
+#quote-text {
+  margin-bottom: 0px;
 }
